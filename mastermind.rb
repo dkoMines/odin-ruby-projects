@@ -78,12 +78,12 @@ class Game
 
   def print_guess(guess, bw_pegs)
     str = "Guess: #{guess} Pegs: "
-    bw_pegs[0].times {
+    bw_pegs[0].times do
       str += "\u25CB".encode('utf-8')
-    }
-    bw_pegs[1].times {
+    end
+    bw_pegs[1].times do
       str += "\u25CF".encode('utf-8')
-    }
+    end
     puts str
   end
 
