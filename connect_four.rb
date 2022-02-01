@@ -35,7 +35,6 @@ class Game
   end
 
   def play_game
-    winner = false
     loop do
       print_board
       place(@player1)
